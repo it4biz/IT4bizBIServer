@@ -1,0 +1,18 @@
+12.10.17
+    * Sync CCC with that of the CDF branch
+    * Updated platform dependency to 4.5 stable
+    * Added missing copyright for jquery bits
+    * Added missing output type declaration when no filename was specified
+    * Workaround for changes in detecting method name in draw 
+
+12.09.05
+    * Integration with CPF
+    * Updated pvc-d1.0.js file to keep in sync with CDF
+
+12.07.19
+    * Added a hook for plugging in a default chart colorscheme (CvK Feb. 2012)
+    * Updated pvc-d1.0.js file to keep in sync with CDF
+
+12.05.15
+	*  Disabled CDW support due to security considerations. Was not in use anyway.
+	* Updated pvc-d1.0.js file to keep in sync with CDF
