@@ -1,0 +1,65 @@
+12.10.17
+
+    * Added google analytics componente developed by Sinn Tecnologia
+    * Added about & documentation buttons to CDE. 
+    * Added new features to CGG export window
+    * General image update
+
+12.09.05
+    * Fix [REDMINE 512] - Export to png with size small
+    * Fix [REDMINE 511] - Export to png 
+    * fix to mobile navigation component. Was not getting query string correctly
+    * Add editor support for resource reordering. Yay!
+    * Add support for removing url scheme detection when rendering dashboard headers
+    * Add some more error logging to dashboard rendering
+    * Make sure only one minifyPackage routine is runnning at any given time
+    * Make export popup's export size configurable
+    * Add missing pre/postChange properties to AutoCompleteBox
+    * SiteMap now keeps track of the original entry point with a css class.
+
+12.07.19
+    * Implemented [REDMINE 281] - Allow plugins to register extra cde components
+    * Support for output index in external CDAs
+    * CPF usage as component basis
+    * New Popup Component and Reference    
+    * Added new component based on textarea html object. Added properties of max length and size to text input component edition    
+    * Fixed [REDMINE 856] - CDE allows non-privileged users access to edit dashboards.
+    * Fixed [REDMINE 721] - SelectMulti Isn't populated, feeded by another SelectMulti Component
+    * Fixed [REDMINE 424] - CDA creation sometimes adds a prefix / to catalog that disables Mondrian role mapping 
+    *  Added start and end Date parameters to DatePicker Component, which can be controlled by the dateFormat parameter.
+    * FileExplorer returns different info from getExtension in fileBased and db rep. Adding both
+    * Allow Icons (.ico) to be downloaded
+    * [PATCH] BulletChart support for the tooltipFormat option
+    * disable edit option in olap wizard file open; prompts a bit less green
+    * SiteMap Component update
+
+12.05.15
+	* Added SiteMap component
+	* NewMapComponent was using cdw files for rendering cgg markers. Switched to direct js support since CGG no longer supports CDW	
+	* Added target container property to duplicate component.
+	* CDA cache clean folders and dashboards show the names they have in PUC
+	* Added getResponse() to ContentGenerator
+	* cleanup: unused imports, warnings, some frequent strings
+	* first step at centralization/normalization of repository access
+	* Solved bug in ie8
+	* SyncronizedCdfStructure was hiding stack trace; XmlStructure warnings 
+	* ext-editor: +listener, optional button
+	* SiteMap passes li to action function.
+
+
+12.04.09
+
+	* Implemented [REDMINE 514] - Added auditing support for cde render and edit methods
+	* Small change to allow MOLA plugin to work
+	* Changed dependency to 3.10.0-stable
+	* fix path construction in saiku olap wizard
+
+12.03.19
+
+	* [REDMINE 411] - Typo under Addin definition
+	* Add CDA Cache Cleaner component
+	* Add support for persistent parameters 
+	* Updated addIn reference to include groupHeaders addIn.
+	* Added marketplace snippet generation to build process
+	* Add Bookmarkable support to DuplicateComponent	
+	* Fix interaction between duplicate and popup components 

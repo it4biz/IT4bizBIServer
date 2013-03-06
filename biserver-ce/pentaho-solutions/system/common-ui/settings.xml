@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<settings>
+    <!-- set this to true for production, and false for development/localization -->
+    <cache-messages>false</cache-messages>
+    
+    <!-- how far ahead to set the browser's cache -->
+    <max-age>0</max-age>
+    
+    <cache>false</cache>
+    <amd-root-path>content/common-ui/resources/web,content/common-ui/resources/web/util/local</amd-root-path>
+    <amd-root-namespace>common-ui,local</amd-root-namespace>
+<plugin-id>common_ui_Release</plugin-id>
+<plugin-version>1.0.2-GA</plugin-version>
+<plugin-build>42</plugin-build>
+</settings>
